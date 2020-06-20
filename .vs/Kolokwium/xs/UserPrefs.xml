@@ -1,10 +1,25 @@
 ﻿<Properties StartupConfiguration="{AEE8A5E3-A024-4A28-BF29-085AED9E65F2}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kolokwium/Startup.cs">
+    <Files>
+      <File FileName="Kolokwium/Controllers/PlayerController.cs" Line="17" Column="10" />
+      <File FileName="Kolokwium/Program.cs" Line="17" Column="10" />
+      <File FileName="Kolokwium/Services/IChampionshipDbService.cs" Line="1" Column="1" />
+      <File FileName="Kolokwium/Services/ChampionShipDbService.cs" Line="1" Column="1" />
+      <File FileName="Kolokwium/Startup.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Kolokwium" expanded="True" selected="True">
-            <Node name="Kolokwium" expanded="True" />
+          <Node name="Kolokwium" expanded="True">
+            <Node name="Kolokwium" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="RequestExeptions" expanded="True" />
+              <Node name="Requests" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
