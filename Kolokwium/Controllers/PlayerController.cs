@@ -25,8 +25,8 @@ namespace Kolokwium.Controllers
             return Ok();
         }
 
-
-        [HttpGet("/championships/{id:int}/teams")]
+        [Route("/championships/{id:int}/teams")]
+        [HttpGet]
         public IActionResult GetTeamsSorted(int id)
         {
             try
@@ -40,12 +40,12 @@ namespace Kolokwium.Controllers
             }
             catch(Exception e)
             {
-                return BadRequest(":(");
+                return BadRequest("Bad Request");
             }
 
         }
 
-        [HttpPost("teams/{id}/players")]
+        [HttpPost("/teams/{id}/players")]
         public IActionResult AddPlayerToTeam(int id, AddPlayerRequest addPlayerRequest)
         {
             try
